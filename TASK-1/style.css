@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+    background-color: white;
+    position: fixed; 
+    width: 100%;
+}
+.mainHead{
+    margin: 1%;
+    color: yellowgreen;
+    margin-right: 20%;
+}
+.navItems{
+    background-color: white;
+    width:65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.poster{
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 40%;
+    
+
+}
+.intro{
+   padding: 15%;
+   color: darkblue;
+   font-weight: 900;
+   font-size: xx-large;
+}
+#head1{
+    font-style: italic;
+}
+.mainButtons{
+    font-size: smaller;
+    padding: 1%;
+    border-radius: 10%;
+    background-color: yellowgreen;
+    border-style: groove;
+    border-width: 3px;
+    border-color: yellow;
+    font-weight: 600;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+.mainButtons:hover{
+    background-color:grey;
+}
+.aboutUs{
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: row;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.aboutMain{
+    margin-right: 10%;
+    padding: 2%;
+
+}
+#aboutMain1{
+    margin-bottom: 2%;
+    margin-right: 10%;
+}
+img{
+    height: 100%;
+    border-radius: 5%;
+}
+
